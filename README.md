@@ -14,7 +14,7 @@ To set up and run the simulation, follow the instructions below:
 
 ### Prerequisites
 
-1. Ensure you have all the necessary software and dependencies installed on your system.
+1. Ensure you have all the necessary software and dependencies installed on your system like the pulseaudio server.
 2. Connect the microcontroller to your laptop to generate the audio signal required for the simulation.
 
 ### Running the Simulation
@@ -23,10 +23,16 @@ To set up and run the simulation, follow the instructions below:
     ```bash
     cd ICSSIM/deployments
     ```
-
-2. Run the initialization script:
+    
+2. Run the pulseaudio server in a seperate powershell terminal
+   ```bash
+   .\pulseaudio-1.1\bin\pulseaudio.exe --use-pid-file=false
+   ```
+3. Run the initialization script:
     ```bash
     ./init.sh
     ```
+
+
 
 
