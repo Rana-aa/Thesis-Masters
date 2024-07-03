@@ -1,0 +1,1 @@
+@load ./ping.zeek

@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2024-07-03-15-32-42
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1720020762.201971	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020762.262046	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020762.282049	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020762.362107	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020762.442024	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020762.442062	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.197540	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.197540	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.252320	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.252369	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.252411	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.252420	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.412070	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020763.412114	Reporter::ERROR	no such index (DDoS_Detection::target_traffic[DDoS_Detection::c$id$resp_h])	/usr/local/zeek/share/zeek/policy/custom-scripts/./ddos.zeek, line 34
+1720020772.197046	Reporter::WARNING	Your interface is likely receiving invalid TCP checksums, most likely from NIC checksum offloading.  By default, packets with invalid checksums are discarded by Zeek unless using the -C command-line option or toggling the 'ignore_checksums' variable.  Alternatively, disable checksum offloading by the network adapter to ensure Zeek analyzes the actual checksums that are transmitted.	/usr/local/zeek/share/zeek/base/misc/find-checksum-offloading.zeek, line 54
+1720020799.837242	Reporter::ERROR	no such index (MITM::addr_to_mac[MITM::address1])	/usr/local/zeek/share/zeek/policy/custom-scripts/./mitm.zeek, line 30
+1720020804.838489	Reporter::ERROR	no such index (MITM::addr_to_mac[MITM::address1])	/usr/local/zeek/share/zeek/policy/custom-scripts/./mitm.zeek, line 30
+1720020811.773486	Reporter::INFO	received termination signal	(empty)
+1720020811.773486	Reporter::INFO	3038 packets received on interface br_icsnet, 0 (0.00%) dropped	(empty)
+#close	2024-07-03-15-33-31

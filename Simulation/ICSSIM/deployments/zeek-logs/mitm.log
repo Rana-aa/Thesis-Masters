@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	mitm
+#open	2024-06-30-00-34-24
+#fields	address1	detected_mac	original_mac	detection_time
+#types	addr	string	string	time
+192.168.0.11	02:42:c0:a8:00:2a	02:42:c0:a8:00:0b	1719707664.777923
+192.168.0.11	02:42:c0:a8:00:0b	02:42:c0:a8:00:2a	1719707664.919014
+192.168.0.21	02:42:c0:a8:00:2a	02:42:c0:a8:00:15	1719707664.958201
+192.168.0.21	02:42:c0:a8:00:15	02:42:c0:a8:00:2a	1719707665.014252
+#close	2024-06-30-00-37-42
