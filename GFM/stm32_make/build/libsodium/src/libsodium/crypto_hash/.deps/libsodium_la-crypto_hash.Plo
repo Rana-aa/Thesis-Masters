@@ -1,0 +1,41 @@
+crypto_hash/libsodium_la-crypto_hash.lo: \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_hash/crypto_hash.c \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_hash.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
+ /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
+ /usr/include/newlib/sys/_locale.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_hash.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/usr/include/newlib/stdlib.h:
+/usr/include/newlib/machine/ieeefp.h:
+/usr/include/newlib/_ansi.h:
+/usr/include/newlib/newlib.h:
+/usr/include/newlib/_newlib_version.h:
+/usr/include/newlib/sys/config.h:
+/usr/include/newlib/sys/features.h:
+/usr/include/newlib/sys/reent.h:
+/usr/include/newlib/_ansi.h:
+/usr/include/newlib/sys/_types.h:
+/usr/include/newlib/machine/_types.h:
+/usr/include/newlib/machine/_default_types.h:
+/usr/include/newlib/sys/lock.h:
+/usr/include/newlib/sys/cdefs.h:
+/usr/include/newlib/machine/stdlib.h:
+/usr/include/newlib/alloca.h:
+/usr/include/newlib/sys/_locale.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:

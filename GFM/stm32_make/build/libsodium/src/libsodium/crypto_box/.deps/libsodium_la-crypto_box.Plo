@@ -1,0 +1,16 @@
+crypto_box/libsodium_la-crypto_box.lo: \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_box/crypto_box.c \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_box.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_box.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:

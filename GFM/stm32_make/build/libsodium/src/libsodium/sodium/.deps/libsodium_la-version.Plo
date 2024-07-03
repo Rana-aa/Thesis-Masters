@@ -1,0 +1,12 @@
+sodium/libsodium_la-version.lo: \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/sodium/version.c \
+ include/sodium/version.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h
+include/sodium/version.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:

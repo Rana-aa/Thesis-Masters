@@ -1,0 +1,67 @@
+crypto_aead/aegis128l/libsodium_la-aegis128l_soft.lo: \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_aead/aegis128l/aegis128l_soft.c \
+ /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/sys/cdefs.h /usr/include/newlib/machine/stdlib.h \
+ /usr/include/newlib/alloca.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/string.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/core.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_aead_aegis128l.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_verify_16.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_verify_32.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/utils.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/private/common.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/private/softaes.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_aead/aegis128l/aegis128l_soft.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_aead/aegis128l/implementations.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_aead/aegis128l/aegis128l_common.h
+/usr/include/newlib/errno.h:
+/usr/include/newlib/sys/errno.h:
+/usr/include/newlib/sys/reent.h:
+/usr/include/newlib/_ansi.h:
+/usr/include/newlib/newlib.h:
+/usr/include/newlib/_newlib_version.h:
+/usr/include/newlib/sys/config.h:
+/usr/include/newlib/machine/ieeefp.h:
+/usr/include/newlib/sys/features.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/usr/include/newlib/sys/_types.h:
+/usr/include/newlib/machine/_types.h:
+/usr/include/newlib/machine/_default_types.h:
+/usr/include/newlib/sys/lock.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/usr/include/newlib/stdlib.h:
+/usr/include/newlib/_ansi.h:
+/usr/include/newlib/sys/cdefs.h:
+/usr/include/newlib/machine/stdlib.h:
+/usr/include/newlib/alloca.h:
+/usr/include/newlib/sys/_locale.h:
+/usr/include/newlib/string.h:
+/usr/include/newlib/strings.h:
+/usr/include/newlib/sys/string.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/core.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_aead_aegis128l.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_verify_16.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_verify_32.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/utils.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/private/common.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/private/softaes.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_aead/aegis128l/aegis128l_soft.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_aead/aegis128l/implementations.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_aead/aegis128l/aegis128l_common.h:

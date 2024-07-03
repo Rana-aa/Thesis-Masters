@@ -1,0 +1,16 @@
+crypto_stream/salsa2012/ref/libsodium_la-stream_salsa2012_ref.lo: \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/utils.h
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/utils.h:

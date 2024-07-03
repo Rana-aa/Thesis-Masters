@@ -1,0 +1,22 @@
+crypto_scalarmult/curve25519/libsodium_la-scalarmult_curve25519.lo: \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/private/implementations.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/runtime.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.h \
+ /home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/../scalarmult_curve25519.h
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/export.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/private/implementations.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/include/sodium/runtime.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.h:
+/home/rana/Desktop/fw2/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/../scalarmult_curve25519.h:

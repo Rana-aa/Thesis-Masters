@@ -1,0 +1,771 @@
+digraph G {
+size="23.4,16.5!";
+graph [fontsize=40];
+node [fontsize=40];
+rankdir=LR;
+ranksep=5;
+nodesep=0.2;
+
+    subgraph cluster_0 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>startup_stm32f407xx.o (82B)</b></font></td></tr></table>>;
+       
+        g_pfnVectors[label = "g_pfnVectors", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        Reset_Handler[label = "Reset_Handler (80B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        Default_Handler[label = "Default_Handler (2B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        RTC_Alarm_IRQHandler[label = "RTC_Alarm_IRQHandler", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_1 {
+style = "filled";
+bgcolor = "#e0e0e0";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#ece41a"><font face="carlito" color="#000000"><b>libgcc.a(_arm_muldf3.o) (596B)</b></font></td></tr></table>>;
+       
+        __aeabi_dmul[label = "__aeabi_dmul", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_2 {
+style = "filled";
+bgcolor = "#e0e0e0";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#e4e318"><font face="carlito" color="#000000"><b>libgcc.a(_arm_addsubdf3.o) (888B)</b></font></td></tr></table>>;
+       
+        __aeabi_drsub[label = "__aeabi_drsub", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        __aeabi_dsub[label = "__aeabi_dsub", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        __adddf3[label = "__adddf3", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        __aeabi_ui2d[label = "__aeabi_ui2d", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        __floatsidf[label = "__floatsidf", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        __extendsfdf2[label = "__extendsfdf2", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        __aeabi_ul2d[label = "__aeabi_ul2d", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        __floatdidf[label = "__floatdidf", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_3 {
+style = "filled";
+bgcolor = "#e0e0e0";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fae622"><font face="carlito" color="#000000"><b>libgcc.a(_arm_truncdfsf2.o) (160B)</b></font></td></tr></table>>;
+       
+        __aeabi_d2f[label = "__aeabi_d2f", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_4 {
+style = "filled";
+bgcolor = "#e0e0e0";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000"><b>libgcc.a(_aeabi_uldivmod.o) (48B)</b></font></td></tr></table>>;
+       
+        __aeabi_uldivmod[label = "__aeabi_uldivmod", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_5 {
+style = "filled";
+bgcolor = "#e0e0e0";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#e9e419"><font face="carlito" color="#000000"><b>libgcc.a(_udivmoddi4.o) (712B)</b></font></td></tr></table>>;
+       
+        __udivmoddi4[label = "__udivmoddi4", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        exidx[label = "exidx", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_6 {
+style = "filled";
+bgcolor = "#e0e0e0";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000"><b>libgcc.a(_dvmd_tls.o) (4B)</b></font></td></tr></table>>;
+       
+        __aeabi_ldiv0[label = "__aeabi_ldiv0", style="rounded,filled", shape="box", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        attributes[label = "attributes", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_7 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#c5df21"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>main.o (1829B)</b></font></td></tr></table>>;
+       
+        __libc_init_array[label = "__libc_init_array (14B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        __assert_func[label = "__assert_func (18B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        clock_setup[label = "clock_setup (344B)", style="rounded,filled", shape="box", fillcolor="#f3e51e", fontname="carlito", fontcolor="#000000" color=none];
+        led_setup[label = "led_setup (96B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        spi_flash_if_set_cs[label = "spi_flash_if_set_cs (48B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        spi_flash_setup[label = "spi_flash_setup (188B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        oob_trigger_activated[label = "oob_trigger_activated (72B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        main[label = "main (808B)", style="rounded,filled", shape="box", fillcolor="#e1e318", fontname="carlito", fontcolor="#000000" color=none];
+        NMI_Handler[label = "NMI_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        HardFault_Handler[label = "HardFault_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        MemManage_Handler[label = "MemManage_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        BusFault_Handler[label = "BusFault_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        UsageFault_Handler[label = "UsageFault_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        SVC_Handler[label = "SVC_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        DebugMon_Handler[label = "DebugMon_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        PendSV_Handler[label = "PendSV_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        SysTick_Handler[label = "SysTick_Handler (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        iplt[label = "iplt", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        plt[label = "plt", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        spif[label = "spif", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        flag2[label = "flag2", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        sysclk_speed[label = "sysclk_speed", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        apb1_speed[label = "apb1_speed", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        apb2_speed[label = "apb2_speed", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        auxclk_speed[label = "auxclk_speed", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        apb1_timer_speed[label = "apb1_timer_speed", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        apb2_timer_speed[label = "apb2_timer_speed", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        measurement_errors[label = "measurement_errors", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        demod_state[label = "demod_state", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        freq_sample_ts[label = "freq_sample_ts", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        debug_last_freq[label = "debug_last_freq", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_8 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#f6e61f"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>spi_flash.o (260B)</b></font></td></tr></table>>;
+       
+        spi_xfer[label = "spi_xfer (68B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        spi_read[label = "spi_read (30B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        spi_write[label = "spi_write (34B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        spif_init[label = "spif_init (128B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_9 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#d4e11a"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>freq_meas.o (1342B)</b></font></td></tr></table>>;
+       
+        adc_buf_measure_freq[label = "adc_buf_measure_freq (1012B)", style="rounded,filled", shape="box", fillcolor="#dae218", fontname="carlito", fontcolor="#000000" color=none];
+        func_gauss[label = "func_gauss (118B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        func_gauss_grad[label = "func_gauss_grad (212B)", style="rounded,filled", shape="box", fillcolor="#f6e61f", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_10 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#8bd546"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>dsss_demod.o (3640B)</b></font></td></tr></table>>;
+       
+        dsss_demod_init[label = "dsss_demod_init (42B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        dsss_demod_step[label = "dsss_demod_step (984B)", style="rounded,filled", shape="box", fillcolor="#dce218", fontname="carlito", fontcolor="#000000" color=none];
+        decode_peak[label = "decode_peak (58B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        matcher_init[label = "matcher_init (54B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        matcher_tick[label = "matcher_tick (684B)", style="rounded,filled", shape="box", fillcolor="#e7e419", fontname="carlito", fontcolor="#000000" color=none];
+        gaussian[label = "gaussian (104B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        score_group[label = "score_group (96B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        group_received[label = "group_received (968B)", style="rounded,filled", shape="box", fillcolor="#dce218", fontname="carlito", fontcolor="#000000" color=none];
+        cwt_convolve_step[label = "cwt_convolve_step (128B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        gold_correlate_step[label = "gold_correlate_step (268B)", style="rounded,filled", shape="box", fillcolor="#f6e61f", fontname="carlito", fontcolor="#000000" color=none];
+        1[label = "1", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_11 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#f1e51c"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>crypto.o (468B)</b></font></td></tr></table>>;
+       
+        debug_hexdump[label = "debug_hexdump (72B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        verify_trigger_dom[label = "verify_trigger_dom (208B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        verify_trigger[label = "verify_trigger (116B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        oob_message_received[label = "oob_message_received (58B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_12 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#dfe318"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>serial.o (998B)</b></font></td></tr></table>>;
+       
+        __NVIC_EnableIRQ[label = "__NVIC_EnableIRQ (60B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        __NVIC_SetPriority[label = "__NVIC_SetPriority (84B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        usart_dma_reset[label = "usart_dma_reset (92B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        usart_dma_init[label = "usart_dma_init (156B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        usart_schedule_dma[label = "usart_schedule_dma (228B)", style="rounded,filled", shape="box", fillcolor="#f6e61f", fontname="carlito", fontcolor="#000000" color=none];
+        usart_dma_stream_irq[label = "usart_dma_stream_irq (94B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        usart_putc_nonblocking[label = "usart_putc_nonblocking (90B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        usart_putc_nonblocking_tpf[label = "usart_putc_nonblocking_tpf (30B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        usart_flush[label = "usart_flush (108B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        usart_printf[label = "usart_printf (56B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_13 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#e7e419"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>adc.o (754B)</b></font></td></tr></table>>;
+       
+        panic[label = "panic (16B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        adc_init[label = "adc_init (368B)", style="rounded,filled", shape="box", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+        DMA2_Stream0_IRQHandler[label = "DMA2_Stream0_IRQHandler (180B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        adc_fft_buf_ready_idx[label = "adc_fft_buf_ready_idx (4B)", style="rounded,filled", shape="oval", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        adc_overruns[label = "adc_overruns", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+        adc_fft_buf[label = "adc_fft_buf", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_14 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#ece41a"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>protocol.o (609B)</b></font></td></tr></table>>;
+       
+        strtoul_custom[label = "strtoul_custom (148B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        handle_dsss_received[label = "handle_dsss_received (400B)", style="rounded,filled", shape="box", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+        data2[label = "data2", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_15 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#e7e419"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>con_usart.o (796B)</b></font></td></tr></table>>;
+       
+        con_usart_init[label = "con_usart_init (132B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        DMA2_Stream7_IRQHandler[label = "DMA2_Stream7_IRQHandler (20B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        con_usart[label = "con_usart (644B)", style="rounded,filled", shape="oval", fillcolor="#e7e419", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_16 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#f6e61f"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>dma_util.o (319B)</b></font></td></tr></table>>;
+       
+        dma_get_isr_and_clear[label = "dma_get_isr_and_clear (300B)", style="rounded,filled", shape="box", fillcolor="#f3e51e", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_17 {
+style = "filled";
+bgcolor = "#fddaec";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#b2dd2c"><font face="carlito" color="#000000" point-size="40">tinyprintf / </font><font face="carlito" color="#000000"><b>tinyprintf.o (2436B)</b></font></td></tr></table>>;
+       
+        ulli2a[label = "ulli2a (278B)", style="rounded,filled", shape="box", fillcolor="#f6e61f", fontname="carlito", fontcolor="#000000" color=none];
+        lli2a[label = "lli2a (60B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        uli2a[label = "uli2a (190B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        li2a[label = "li2a (46B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        ui2a[label = "ui2a (190B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        i2a[label = "i2a (46B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        a2d[label = "a2d (80B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        a2u[label = "a2u (102B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        putchw[label = "putchw (404B)", style="rounded,filled", shape="box", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+        tfp_format[label = "tfp_format (1040B)", style="rounded,filled", shape="box", fillcolor="#dae218", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_18 {
+style = "filled";
+bgcolor = "#fbb4ae";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fae622"><font face="carlito" color="#000000" point-size="40">cmsis / </font><font face="carlito" color="#000000"><b>arm_rfft_fast_init_f32.o (88B)</b></font></td></tr></table>>;
+       
+        arm_rfft_256_fast_init_f32[label = "arm_rfft_256_fast_init_f32 (88B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_19 {
+style = "filled";
+bgcolor = "#fbb4ae";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#e1e318"><font face="carlito" color="#000000" point-size="40">cmsis / </font><font face="carlito" color="#000000"><b>arm_rfft_fast_f32.o (950B)</b></font></td></tr></table>>;
+       
+        stage_rfft_f32[label = "stage_rfft_f32 (458B)", style="rounded,filled", shape="box", fillcolor="#eee51b", fontname="carlito", fontcolor="#000000" color=none];
+        merge_rfft_f32[label = "merge_rfft_f32 (402B)", style="rounded,filled", shape="box", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+        arm_rfft_fast_f32[label = "arm_rfft_fast_f32 (90B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_20 {
+style = "filled";
+bgcolor = "#fbb4ae";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#72cf55"><font face="carlito" color="#000000" point-size="40">cmsis / </font><font face="carlito" color="#000000"><b>arm_cfft_f32.o (4540B)</b></font></td></tr></table>>;
+       
+        arm_cfft_radix8by2_f32[label = "arm_cfft_radix8by2_f32 (1000B)", style="rounded,filled", shape="box", fillcolor="#dae218", fontname="carlito", fontcolor="#000000" color=none];
+        arm_cfft_radix8by4_f32[label = "arm_cfft_radix8by4_f32 (3168B)", style="rounded,filled", shape="box", fillcolor="#8bd546", fontname="carlito", fontcolor="#000000" color=none];
+        arm_cfft_f32[label = "arm_cfft_f32 (372B)", style="rounded,filled", shape="box", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_21 {
+style = "filled";
+bgcolor = "#fbb4ae";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#7ed24e"><font face="carlito" color="#000000" point-size="40">cmsis / </font><font face="carlito" color="#000000"><b>arm_cfft_radix8_f32.o (4108B)</b></font></td></tr></table>>;
+       
+        arm_radix8_butterfly_f32[label = "arm_radix8_butterfly_f32 (4108B)", style="rounded,filled", shape="box", fillcolor="#69cc5b", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_22 {
+style = "filled";
+bgcolor = "#fbb4ae";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#f8e621"><font face="carlito" color="#000000" point-size="40">cmsis / </font><font face="carlito" color="#000000"><b>arm_bitreversal2.o (178B)</b></font></td></tr></table>>;
+       
+        arm_bitreversal_32[label = "arm_bitreversal_32 (178B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_23 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fae622"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>__math_xflowf.o (142B)</b></font></td></tr></table>>;
+       
+        eval_as_float[label = "eval_as_float (34B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        fp_barrierf[label = "fp_barrierf (34B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        __math_xflowf[label = "__math_xflowf (74B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_24 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#ece41a"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>expf.o (652B)</b></font></td></tr></table>>;
+       
+        eval_as_double[label = "eval_as_double (36B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        top12[label = "top12 (26B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        expf[label = "expf (556B)", style="rounded,filled", shape="box", fillcolor="#ece41a", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_25 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#eee51b"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>sqrtf.o (558B)</b></font></td></tr></table>>;
+       
+        mul32[label = "mul32 (72B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        sqrtf[label = "sqrtf (452B)", style="rounded,filled", shape="box", fillcolor="#eee51b", fontname="carlito", fontcolor="#000000" color=none];
+        0[label = "0", style="rounded,filled", shape="oval", fillcolor="#ffffff", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_26 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>fabsf.o (42B)</b></font></td></tr></table>>;
+       
+        fabsf[label = "fabsf (42B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_27 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>abs.o (28B)</b></font></td></tr></table>>;
+       
+        abs[label = "abs (28B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_28 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#eee51b"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>memset.o (514B)</b></font></td></tr></table>>;
+       
+        memset[label = "memset (514B)", style="rounded,filled", shape="box", fillcolor="#ece41a", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_29 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#d4e11a"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>memcpy.o (1366B)</b></font></td></tr></table>>;
+       
+        memcpy[label = "memcpy (1366B)", style="rounded,filled", shape="box", fillcolor="#cde01d", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_30 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fae622"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>memcmp.o (92B)</b></font></td></tr></table>>;
+       
+        memcmp[label = "memcmp (92B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_31 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fae622"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>strlen.o (120B)</b></font></td></tr></table>>;
+       
+        strlen[label = "strlen (120B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_32 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>__math_oflowf.o (36B)</b></font></td></tr></table>>;
+       
+        __math_oflowf[label = "__math_oflowf (36B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_33 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>__math_uflowf.o (36B)</b></font></td></tr></table>>;
+       
+        __math_uflowf[label = "__math_uflowf (36B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_34 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>__math_invalidf.o (48B)</b></font></td></tr></table>>;
+       
+        __math_invalidf[label = "__math_invalidf (48B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_35 {
+style = "filled";
+bgcolor = "#e5d8bd";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">src / </font><font face="carlito" color="#000000"><b>system_stm32f4xx.o (56B)</b></font></td></tr></table>>;
+       
+        SystemInit[label = "SystemInit (56B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_36 {
+style = "filled";
+bgcolor = "#decbe4";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#eee51b"><font face="carlito" color="#000000" point-size="40">libsodium / </font><font face="carlito" color="#000000"><b>libsodium.a(libsodium_la-auth_hmacsha512.o) (542B)</b></font></td></tr></table>>;
+       
+        crypto_auth_hmacsha512_init[label = "crypto_auth_hmacsha512_init (326B)", style="rounded,filled", shape="box", fillcolor="#f3e51e", fontname="carlito", fontcolor="#000000" color=none];
+        crypto_auth_hmacsha512_update[label = "crypto_auth_hmacsha512_update (36B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        crypto_auth_hmacsha512_final[label = "crypto_auth_hmacsha512_final (80B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        crypto_auth_hmacsha512[label = "crypto_auth_hmacsha512 (100B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_37 {
+style = "filled";
+bgcolor = "#decbe4";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#440154"><font face="carlito" color="#ffffff" point-size="40">libsodium / </font><font face="carlito" color="#ffffff"><b>libsodium.a(libsodium_la-hash_sha512_cp.o) (21134B)</b></font></td></tr></table>>;
+       
+        rotr64[label = "rotr64 (118B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        load64_be[label = "load64_be (408B)", style="rounded,filled", shape="box", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+        store64_be[label = "store64_be (254B)", style="rounded,filled", shape="box", fillcolor="#f6e61f", fontname="carlito", fontcolor="#000000" color=none];
+        be64enc_vect[label = "be64enc_vect (70B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        be64dec_vect[label = "be64dec_vect (74B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        SHA512_Transform[label = "SHA512_Transform (18088B)", style="rounded,filled", shape="box", fillcolor="#440154", fontname="carlito", fontcolor="#ffffff" color=none];
+        SHA512_Pad[label = "SHA512_Pad (232B)", style="rounded,filled", shape="box", fillcolor="#f6e61f", fontname="carlito", fontcolor="#000000" color=none];
+        crypto_hash_sha512_init[label = "crypto_hash_sha512_init (60B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        crypto_hash_sha512_update[label = "crypto_hash_sha512_update (946B)", style="rounded,filled", shape="box", fillcolor="#dce218", fontname="carlito", fontcolor="#000000" color=none];
+        crypto_hash_sha512_final[label = "crypto_hash_sha512_final (116B)", style="rounded,filled", shape="box", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+        Krnd[label = "Krnd (640B)", style="rounded,filled", shape="oval", fillcolor="#e7e419", fontname="carlito", fontcolor="#000000" color=none];
+        PAD[label = "PAD (128B)", style="rounded,filled", shape="oval", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_38 {
+style = "filled";
+bgcolor = "#decbe4";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fde724"><font face="carlito" color="#000000" point-size="40">libsodium / </font><font face="carlito" color="#000000"><b>libsodium.a(libsodium_la-utils.o) (66B)</b></font></td></tr></table>>;
+       
+        _sodium_dummy_symbol_to_prevent_memzero_lto[label = "_sodium_dummy_symbol_to_prevent_memzero_lto (22B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        sodium_memzero[label = "sodium_memzero (44B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_39 {
+style = "filled";
+bgcolor = "#ccebc5";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#97d83e"><font face="carlito" color="#000000" point-size="40">levmarq / </font><font face="carlito" color="#000000"><b>levmarq.o (3264B)</b></font></td></tr></table>>;
+       
+        levmarq_init[label = "levmarq_init (64B)", style="rounded,filled", shape="box", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        levmarq[label = "levmarq (2176B)", style="rounded,filled", shape="box", fillcolor="#afdc2e", fontname="carlito", fontcolor="#000000" color=none];
+        error_func[label = "error_func (154B)", style="rounded,filled", shape="box", fillcolor="#f8e621", fontname="carlito", fontcolor="#000000" color=none];
+        solve_axb_cholesky[label = "solve_axb_cholesky (374B)", style="rounded,filled", shape="box", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+        cholesky_decomp[label = "cholesky_decomp (496B)", style="rounded,filled", shape="box", fillcolor="#ece41a", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_40 {
+style = "filled";
+bgcolor = "#fbb4ae";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#b2dd2c"><font face="carlito" color="#000000" point-size="40">cmsis / </font><font face="carlito" color="#000000"><b>arm_common_tables.o (2464B)</b></font></td></tr></table>>;
+       
+        twiddleCoef_128[label = "twiddleCoef_128 (1024B)", style="rounded,filled", shape="oval", fillcolor="#dae218", fontname="carlito", fontcolor="#000000" color=none];
+        armBitRevIndexTable128[label = "armBitRevIndexTable128 (416B)", style="rounded,filled", shape="oval", fillcolor="#f1e51c", fontname="carlito", fontcolor="#000000" color=none];
+        twiddleCoef_rfft_256[label = "twiddleCoef_rfft_256 (1024B)", style="rounded,filled", shape="oval", fillcolor="#dae218", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_41 {
+style = "filled";
+bgcolor = "#ffffcc";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#f6e61f"><font face="carlito" color="#000000" point-size="40">musl / </font><font face="carlito" color="#000000"><b>exp2f_data.o (328B)</b></font></td></tr></table>>;
+       
+        __exp2f_data[label = "__exp2f_data (328B)", style="rounded,filled", shape="oval", fillcolor="#f3e51e", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_42 {
+style = "filled";
+bgcolor = "#b3cde3";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#fae622"><font face="carlito" color="#000000" point-size="40">generated / </font><font face="carlito" color="#000000"><b>gold_code_5.o (132B)</b></font></td></tr></table>>;
+       
+        dsss_gold_code_table[label = "dsss_gold_code_table (132B)", style="rounded,filled", shape="oval", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_43 {
+style = "filled";
+bgcolor = "#b3cde3";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#dfe318"><font face="carlito" color="#000000" point-size="40">generated / </font><font face="carlito" color="#000000"><b>fmeas_fft_window.o (1028B)</b></font></td></tr></table>>;
+       
+        fft_256_window_gaussian_16[label = "fft_256_window_gaussian_16 (1024B)", style="rounded,filled", shape="oval", fillcolor="#dae218", fontname="carlito", fontcolor="#000000" color=none];
+        fmeas_fft_window_table[label = "fmeas_fft_window_table (4B)", style="rounded,filled", shape="oval", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_44 {
+style = "filled";
+bgcolor = "#b3cde3";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#f6e61f"><font face="carlito" color="#000000" point-size="40">generated / </font><font face="carlito" color="#000000"><b>dsss_cwt_wavelet.o (280B)</b></font></td></tr></table>>;
+       
+        cwt_ricker_69_window_7F3[label = "cwt_ricker_69_window_7F3 (276B)", style="rounded,filled", shape="oval", fillcolor="#f6e61f", fontname="carlito", fontcolor="#000000" color=none];
+        dsss_cwt_wavelet_table[label = "dsss_cwt_wavelet_table (4B)", style="rounded,filled", shape="oval", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    subgraph cluster_45 {
+style = "filled";
+bgcolor = "#b3cde3";
+pencolor = none;
+        label = <<table border="0"><tr><td border="0" cellpadding="5" bgcolor="#f1e51c"><font face="carlito" color="#000000" point-size="40">generated / </font><font face="carlito" color="#000000"><b>crypto_presig_data.o (449B)</b></font></td></tr></table>>;
+       
+        presig_height[label = "presig_height (4B)", style="rounded,filled", shape="oval", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        presig_domain_strings[label = "presig_domain_strings (20B)", style="rounded,filled", shape="oval", fillcolor="#fde724", fontname="carlito", fontcolor="#000000" color=none];
+        presig_keys[label = "presig_keys (75B)", style="rounded,filled", shape="oval", fillcolor="#fae622", fontname="carlito", fontcolor="#000000" color=none];
+    }
+   
+    dsss_demod_step -> __extendsfdf2 [style="bold", color="#333333"];
+    matcher_tick -> __assert_func [style="bold", color="#333333"];
+    verify_trigger -> strlen [style="bold", color="#333333"];
+    verify_trigger -> presig_height [style="bold", color="#333333"];
+    crypto_hash_sha512_init -> memcpy [style="bold", color="#333333"];
+    be64enc_vect -> store64_be [style="bold", color="#333333"];
+    _isr_vector -> DebugMon_Handler [style="bold", color="#333333"];
+    dsss_demod_step -> usart_printf [style="bold", color="#333333"];
+    adc_init -> __NVIC_SetPriority [style="bold", color="#333333"];
+    sqrtf -> __math_invalidf [style="bold", color="#333333"];
+    main -> con_usart [style="bold", color="#333333"];
+    adc_init -> apb2_timer_speed [style="bold", color="#333333"];
+    clock_setup -> apb1_speed [style="bold", color="#333333"];
+    group_received -> score_group [style="bold", color="#333333"];
+    verify_trigger_dom -> strlen [style="bold", color="#333333"];
+    verify_trigger_dom -> presig_height [style="bold", color="#333333"];
+    tfp_format -> ui2a [style="bold", color="#333333"];
+    usart_dma_init -> apb2_speed [style="bold", color="#333333"];
+    be64dec_vect -> load64_be [style="bold", color="#333333"];
+    main -> dsss_demod_step [style="bold", color="#333333"];
+    verify_trigger -> crypto_auth_hmacsha512 [style="bold", color="#333333"];
+    _isr_vector -> HardFault_Handler [style="bold", color="#333333"];
+    a2u -> a2d [style="bold", color="#333333"];
+    arm_rfft_fast_f32 -> arm_cfft_f32 [style="bold", color="#333333"];
+    con_usart_init -> usart_dma_init [style="bold", color="#333333"];
+    _isr_vector -> DMA2_Stream0_IRQHandler [style="bold", color="#333333"];
+    con_usart -> con_usart [style="bold", color="#333333"];
+    matcher_tick -> __aeabi_uldivmod [style="bold", color="#333333"];
+    tfp_format -> tfp_format [style="bold", color="#333333"];
+    arm_rfft_fast_f32 -> merge_rfft_f32 [style="bold", color="#333333"];
+    __math_oflowf -> __math_xflowf [style="bold", color="#333333"];
+    DMA2_Stream0_IRQHandler -> adc_fft_buf_ready_idx [style="bold", color="#333333"];
+    __math_uflowf -> __math_xflowf [style="bold", color="#333333"];
+    Reset_Handler -> main [style="bold", color="#333333"];
+    verify_trigger_dom -> crypto_auth_hmacsha512 [style="bold", color="#333333"];
+    main -> usart_printf [style="bold", color="#333333"];
+    matcher_tick -> decode_peak [style="bold", color="#333333"];
+    tfp_format -> li2a [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_init -> memset [style="bold", color="#333333"];
+    gaussian -> expf [style="bold", color="#333333"];
+    _isr_vector -> DMA2_Stream7_IRQHandler [style="bold", color="#333333"];
+    main -> memcpy [style="bold", color="#333333"];
+    score_group -> fabsf [style="bold", color="#333333"];
+    sqrtf -> eval_as_float [style="bold", color="#333333"];
+    main -> con_usart_init [style="bold", color="#333333"];
+    adc_init -> adc_fft_buf [style="bold", color="#333333"];
+    SHA512_Pad -> be64enc_vect [style="bold", color="#333333"];
+    main -> led_setup [style="bold", color="#333333"];
+    crypto_hash_sha512_update -> SHA512_Transform [style="bold", color="#333333"];
+    handle_dsss_received -> usart_printf [style="bold", color="#333333"];
+    main -> debug_last_freq [style="bold", color="#333333"];
+    ulli2a -> __aeabi_uldivmod [style="bold", color="#333333"];
+    __math_xflowf -> eval_as_float [style="bold", color="#333333"];
+    spi_flash_setup -> spif [style="bold", color="#333333"];
+    _isr_vector -> SysTick_Handler [style="bold", color="#333333"];
+    SHA512_Transform -> rotr64 [style="bold", color="#333333"];
+    SHA512_Transform -> Krnd [style="bold", color="#333333"];
+    crypto_hash_sha512_update -> sodium_memzero [style="bold", color="#333333"];
+    main -> spi_flash_setup [style="bold", color="#333333"];
+    arm_cfft_f32 -> arm_bitreversal_32 [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_final -> crypto_hash_sha512_update [style="bold", color="#333333"];
+    main -> dsss_demod_init [style="bold", color="#333333"];
+    oob_message_received -> verify_trigger [style="bold", color="#333333"];
+    spi_write -> spi_xfer [style="bold", color="#333333"];
+    arm_cfft_f32 -> arm_cfft_radix8by4_f32 [style="bold", color="#333333"];
+    usart_dma_stream_irq -> dma_get_isr_and_clear [style="bold", color="#333333"];
+    verify_trigger -> memcmp [style="bold", color="#333333"];
+    DMA2_Stream7_IRQHandler -> con_usart [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_init -> crypto_hash_sha512_update [style="bold", color="#333333"];
+    crypto_hash_sha512_final -> be64enc_vect [style="bold", color="#333333"];
+    sodium_memzero -> memset [style="bold", color="#333333"];
+    adc_buf_measure_freq -> func_gauss [style="bold", color="#333333"];
+    oob_trigger_activated -> con_usart [style="bold", color="#333333"];
+    _isr_vector -> PendSV_Handler [style="bold", color="#333333"];
+    dsss_demod_init -> matcher_init [style="bold", color="#333333"];
+    dsss_demod_init -> memset [style="bold", color="#333333"];
+    verify_trigger_dom -> memcmp [style="bold", color="#333333"];
+    group_received -> __floatsidf [style="bold", color="#333333"];
+    expf -> __math_uflowf [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_final -> crypto_hash_sha512_final [style="bold", color="#333333"];
+    dsss_demod_step -> matcher_tick [style="bold", color="#333333"];
+    SHA512_Pad -> memset [style="bold", color="#333333"];
+    SHA512_Pad -> SHA512_Transform [style="bold", color="#333333"];
+    spi_read -> spi_xfer [style="bold", color="#333333"];
+    group_received -> 0 [style="bold", color="#333333"];
+    spi_flash_setup -> spif_init [style="bold", color="#333333"];
+    adc_buf_measure_freq -> levmarq_init [style="bold", color="#333333"];
+    adc_buf_measure_freq -> arm_rfft_256_fast_init_f32 [style="bold", color="#333333"];
+    usart_printf -> usart_flush [style="bold", color="#333333"];
+    cwt_convolve_step -> dsss_cwt_wavelet_table [style="bold", color="#333333"];
+    arm_cfft_radix8by4_f32 -> arm_radix8_butterfly_f32 [style="bold", color="#333333"];
+    adc_buf_measure_freq -> fmeas_fft_window_table [style="bold", color="#333333"];
+    tfp_format -> uli2a [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_init -> crypto_hash_sha512_final [style="bold", color="#333333"];
+    DMA2_Stream0_IRQHandler -> panic [style="bold", color="#333333"];
+    clock_setup -> auxclk_speed [style="bold", color="#333333"];
+    usart_dma_init -> __NVIC_SetPriority [style="bold", color="#333333"];
+    group_received -> __assert_func [style="bold", color="#333333"];
+    oob_trigger_activated -> flag2 [style="bold", color="#333333"];
+    dsss_demod_step -> group_received [style="bold", color="#333333"];
+    oob_trigger_activated -> usart_printf [style="bold", color="#333333"];
+    crypto_hash_sha512_final -> SHA512_Pad [style="bold", color="#333333"];
+    arm_rfft_fast_f32 -> stage_rfft_f32 [style="bold", color="#333333"];
+    arm_rfft_256_fast_init_f32 -> twiddleCoef_rfft_256 [style="bold", color="#333333"];
+    sqrtf -> mul32 [style="bold", color="#333333"];
+    dsss_demod_step -> cwt_convolve_step [style="bold", color="#333333"];
+    arm_cfft_f32 -> arm_radix8_butterfly_f32 [style="bold", color="#333333"];
+    _isr_vector -> RTC_Alarm_IRQHandler [style="bold", color="#333333"];
+    usart_putc_nonblocking_tpf -> usart_putc_nonblocking [style="bold", color="#333333"];
+    levmarq -> error_func [style="bold", color="#333333"];
+    _isr_vector -> MemManage_Handler [style="bold", color="#333333"];
+    crypto_hash_sha512_final -> sodium_memzero [style="bold", color="#333333"];
+    clock_setup -> apb2_speed [style="bold", color="#333333"];
+    adc_buf_measure_freq -> __extendsfdf2 [style="bold", color="#333333"];
+    expf -> __math_oflowf [style="bold", color="#333333"];
+    adc_init -> 0 [style="bold", color="#333333"];
+    cholesky_decomp -> sqrtf [style="bold", color="#333333"];
+    crypto_hash_sha512_init -> 0 [style="bold", color="#333333"];
+    dma_get_isr_and_clear -> dma_get_isr_and_clear [style="bold", color="#333333"];
+    adc_init -> __NVIC_EnableIRQ [style="bold", color="#333333"];
+    group_received -> __extendsfdf2 [style="bold", color="#333333"];
+    _isr_vector -> BusFault_Handler [style="bold", color="#333333"];
+    adc_buf_measure_freq -> arm_rfft_fast_f32 [style="bold", color="#333333"];
+    DMA2_Stream7_IRQHandler -> usart_dma_stream_irq [style="bold", color="#333333"];
+    __math_xflowf -> fp_barrierf [style="bold", color="#333333"];
+    adc_init -> __assert_func [style="bold", color="#333333"];
+    expf -> eval_as_double [style="bold", color="#333333"];
+    adc_buf_measure_freq -> __aeabi_dmul [style="bold", color="#333333"];
+    con_usart_init -> con_usart [style="bold", color="#333333"];
+    main -> demod_state [style="bold", color="#333333"];
+    i2a -> ui2a [style="bold", color="#333333"];
+    dsss_demod_step -> gold_correlate_step [style="bold", color="#333333"];
+    expf -> __exp2f_data [style="bold", color="#333333"];
+    usart_putc_nonblocking -> usart_putc_nonblocking [style="bold", color="#333333"];
+    group_received -> __aeabi_dmul [style="bold", color="#333333"];
+    usart_printf -> usart_putc_nonblocking_tpf [style="bold", color="#333333"];
+    dma_get_isr_and_clear -> 0 [style="bold", color="#333333"];
+    tfp_format -> i2a [style="bold", color="#333333"];
+    con_usart -> usart_dma_init [style="bold", color="#333333"];
+    main -> adc_fft_buf [style="bold", color="#333333"];
+    usart_flush -> usart_schedule_dma [style="bold", color="#333333"];
+    group_received -> __adddf3 [style="bold", color="#333333"];
+    arm_rfft_256_fast_init_f32 -> twiddleCoef_128 [style="bold", color="#333333"];
+    adc_buf_measure_freq -> sqrtf [style="bold", color="#333333"];
+    gold_correlate_step -> dsss_gold_code_table [style="bold", color="#333333"];
+    SHA512_Transform -> memcpy [style="bold", color="#333333"];
+    main -> adc_buf_measure_freq [style="bold", color="#333333"];
+    dsss_cwt_wavelet_table -> cwt_ricker_69_window_7F3 [style="bold", color="#333333"];
+    fmeas_fft_window_table -> fft_256_window_gaussian_16 [style="bold", color="#333333"];
+    levmarq -> cholesky_decomp [style="bold", color="#333333"];
+    dma_get_isr_and_clear -> __assert_func [style="bold", color="#333333"];
+    tfp_format -> a2u [style="bold", color="#333333"];
+    arm_rfft_256_fast_init_f32 -> armBitRevIndexTable128 [style="bold", color="#333333"];
+    func_gauss -> expf [style="bold", color="#333333"];
+    _isr_vector -> Reset_Handler [style="bold", color="#333333"];
+    spi_flash_setup -> spi_flash_if_set_cs [style="bold", color="#333333"];
+    usart_dma_stream_irq -> usart_schedule_dma [style="bold", color="#333333"];
+    score_group -> gaussian [style="bold", color="#333333"];
+    expf -> __extendsfdf2 [style="bold", color="#333333"];
+    DMA2_Stream0_IRQHandler -> adc_overruns [style="bold", color="#333333"];
+    matcher_tick -> fabsf [style="bold", color="#333333"];
+    lli2a -> ulli2a [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_init -> crypto_hash_sha512_init [style="bold", color="#333333"];
+    main -> adc_init [style="bold", color="#333333"];
+    tfp_format -> lli2a [style="bold", color="#333333"];
+    adc_buf_measure_freq -> levmarq [style="bold", color="#333333"];
+    SHA512_Transform -> be64dec_vect [style="bold", color="#333333"];
+    SHA512_Pad -> PAD [style="bold", color="#333333"];
+    handle_dsss_received -> oob_message_received [style="bold", color="#333333"];
+    expf -> __aeabi_d2f [style="bold", color="#333333"];
+    clock_setup -> apb1_timer_speed [style="bold", color="#333333"];
+    main -> adc_fft_buf_ready_idx [style="bold", color="#333333"];
+    verify_trigger_dom -> memset [style="bold", color="#333333"];
+    handle_dsss_received -> data2 [style="bold", color="#333333"];
+    group_received -> __aeabi_uldivmod [style="bold", color="#333333"];
+    verify_trigger_dom -> memcpy [style="bold", color="#333333"];
+    expf -> __aeabi_dmul [style="bold", color="#333333"];
+    expf -> eval_as_float [style="bold", color="#333333"];
+    adc_buf_measure_freq -> func_gauss_grad [style="bold", color="#333333"];
+    expf -> __adddf3 [style="bold", color="#333333"];
+    adc_buf_measure_freq -> __aeabi_d2f [style="bold", color="#333333"];
+    tfp_format -> putchw [style="bold", color="#333333"];
+    group_received -> decode_peak [style="bold", color="#333333"];
+    _isr_vector -> UsageFault_Handler [style="bold", color="#333333"];
+    expf -> __aeabi_dsub [style="bold", color="#333333"];
+    group_received -> __aeabi_d2f [style="bold", color="#333333"];
+    arm_cfft_radix8by2_f32 -> arm_radix8_butterfly_f32 [style="bold", color="#333333"];
+    handle_dsss_received -> con_usart [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_update -> crypto_hash_sha512_update [style="bold", color="#333333"];
+    Reset_Handler -> SystemInit [style="bold", color="#333333"];
+    clock_setup -> apb2_timer_speed [style="bold", color="#333333"];
+    matcher_tick -> 1 [style="bold", color="#333333"];
+    spif_init -> spi_read [style="bold", color="#333333"];
+    dsss_demod_step -> fabsf [style="bold", color="#333333"];
+    adc_buf_measure_freq -> __aeabi_dsub [style="bold", color="#333333"];
+    spif_init -> spi_write [style="bold", color="#333333"];
+    main -> freq_sample_ts [style="bold", color="#333333"];
+    usart_dma_init -> usart_dma_reset [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_final -> sodium_memzero [style="bold", color="#333333"];
+    arm_cfft_f32 -> arm_cfft_radix8by2_f32 [style="bold", color="#333333"];
+    main -> clock_setup [style="bold", color="#333333"];
+    usart_dma_init -> __NVIC_EnableIRQ [style="bold", color="#333333"];
+    _isr_vector -> NMI_Handler [style="bold", color="#333333"];
+    _isr_vector -> SVC_Handler [style="bold", color="#333333"];
+    func_gauss_grad -> expf [style="bold", color="#333333"];
+    expf -> top12 [style="bold", color="#333333"];
+    matcher_tick -> handle_dsss_received [style="bold", color="#333333"];
+    dsss_demod_step -> con_usart [style="bold", color="#333333"];
+    verify_trigger -> debug_hexdump [style="bold", color="#333333"];
+    usart_printf -> tfp_format [style="bold", color="#333333"];
+    tfp_format -> ulli2a [style="bold", color="#333333"];
+    crypto_auth_hmacsha512_init -> sodium_memzero [style="bold", color="#333333"];
+    group_received -> abs [style="bold", color="#333333"];
+    sqrtf -> 0 [style="bold", color="#333333"];
+    sodium_memzero -> _sodium_dummy_symbol_to_prevent_memzero_lto [style="bold", color="#333333"];
+    clock_setup -> sysclk_speed [style="bold", color="#333333"];
+    levmarq -> solve_axb_cholesky [style="bold", color="#333333"];
+    Reset_Handler -> __libc_init_array [style="bold", color="#333333"];
+    main -> measurement_errors [style="bold", color="#333333"];
+    verify_trigger -> memset [style="bold", color="#333333"];
+    handle_dsss_received -> strtoul_custom [style="bold", color="#333333"];
+    verify_trigger_dom -> debug_hexdump [style="bold", color="#333333"];
+    li2a -> uli2a [style="bold", color="#333333"];
+    verify_trigger -> memcpy [style="bold", color="#333333"];
+    oob_message_received -> oob_trigger_activated [style="bold", color="#333333"];
+    _isr_vector [label = "section .isr_vector", shape="box", style="filled,bold"];
+}
